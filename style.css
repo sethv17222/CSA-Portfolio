@@ -1,6 +1,5 @@
 #layout
-#sidebar
-.sidebar-link {
+.menu-link {
     position: fixed;
     display: block; /* show this only on small screens */
     top: 0;
@@ -14,32 +13,32 @@
     padding: 2.1em 1.6em;
 }
 
-    .sidebar-link:hover,
-    .sidebar:focus {
+    .menu-link:hover,
+    .menu-link:focus {
         background: #000;
     }
 
-    .sidebar-link span {
+    .menu-link span {
         position: relative;
         display: block;
     }
 
-    .sidebar-link span,
-    .sidebar-link span:before,
-    .sidebar-link span:after {
+    .menu-link span,
+    .menu-link span:before,
+    .menu-link span:after {
         background-color: #fff;
         pointer-events: none;
         width: 100%;
         height: 0.2em;
     }
 
-        .sidebar-link span:before,
-        .sidebar span:after {
+        .menu-link span:before,
+        .menu-link span:after {
             position: absolute;
             margin-top: -0.6em;
             content: " ";
         }
 
-        .sidebar-link span:after {
+        .menu-link span:after {
             margin-top: 0.6em;
         }
