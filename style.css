@@ -1,5 +1,4 @@
 #layout {
-    display: flex;
     position: relative;
     left: 0;
 }
@@ -12,7 +11,7 @@
     bottom: 0;
     left: 0;
     z-index: 1000;
-    background: #191818; /* Dark elegant background */
+    background: #191818; 
     color: #fff;
     overflow-y: auto;
 }
@@ -53,9 +52,9 @@
 
 .menu-link {
     position: fixed;
-    display: block; /* Usually hidden on desktop, shown on mobile */
+    display: block; 
     top: 0;
-    left: 0; /* Adjust based on whether sidebar is open */
+    left: 0; 
     background: rgba(0,0,0,0.7);
     padding: 15px;
     z-index: 1100;
