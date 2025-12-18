@@ -1,4 +1,4 @@
-.menu-link {
+.sidebar {
     position: fixed;
     display: block; /* show this only on small screens */
     top: 0;
@@ -12,32 +12,32 @@
     padding: 2.1em 1.6em;
 }
 
-    .menu-link:hover,
-    .menu-link:focus {
+    .sidebar:hover,
+    .sidebar:focus {
         background: #000;
     }
 
-    .menu-link span {
+    .sidebar span {
         position: relative;
         display: block;
     }
 
-    .menu-link span,
-    .menu-link span:before,
-    .menu-link span:after {
+    .sidebar span,
+    .sidebar span:before,
+    .sidebar span:after {
         background-color: #fff;
         pointer-events: none;
         width: 100%;
         height: 0.2em;
     }
 
-        .menu-link span:before,
-        .menu-link span:after {
+        .sidebar span:before,
+        .sidebar span:after {
             position: absolute;
             margin-top: -0.6em;
             content: " ";
         }
 
-        .menu-link span:after {
+        .sidebar span:after {
             margin-top: 0.6em;
         }
